@@ -1,0 +1,37 @@
+node.js
+-------
+  1.create folder for server
+  2.create package.json file: npm init
+  3.create entry point file index.js
+  4.install express: npm i express
+  5.create file .gitignore and type \node_modules.
+  6.import express inside index.js
+  7.create server app using express
+  8.set up port for server app
+  9.to resolve api call
+     // server-app.http-method(path,call back function)
+  10.install cors (cross origin resource sharing): npm i cors
+     // import cors in index.js
+     // use cors define the origin to share the data with server
+  11.parse json data.  
+
+
+  Integration of Node.js server and mongodb
+  ------------------------------------------
+  1.Install mongoose - npm install mongoose
+  2.Create a folder for services then create a js file for defining db connections- db.js
+     -Import mongoose in db.js
+     -using mangoose define a connection string
+     -Create model for the project
+
+  Authorization
+  -------------
+  1.JSON Web Token - npm i jsonwebtoken
+  2. Using JWT
+          -generate token for successful login: sign()
+          -verify token - verify()
+  3. Middleware
+    - 2 types
+      - application specific Middleware
+      - router specific Middleware
+            
